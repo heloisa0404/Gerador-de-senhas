@@ -37,8 +37,15 @@ for(i=0; i < checkbox.length;i++){
 
 geraSenha();
 
-function geraSenha(){
-  let alfabeto = '';
+function geraSenha() 
+  let alfabeto = '';{
+    
+  }
+
+
+
+
+
   if(checkbox[0].cheked){
     alfabeto = alfabeto + letrasMaiusculas;
   }
@@ -122,8 +129,7 @@ valorEntropia = document.querySelector('.entropia');
 
    
 valorEntropia.textContent = "Um computador pode levar até " +
-Math.floor(2 ** entropia / (100e6 * 60 * 60 * 24)) + " dias para descobrir
-essa senha.";
+Math.floor(2 ** entropia / (100e6 * 60 * 60 * 24)) + " dias para descobrir essa senha.";
 
 
 }
